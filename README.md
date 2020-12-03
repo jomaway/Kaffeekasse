@@ -1,1 +1,5 @@
 # Kaffeekasse
+
+Eine digitale Kaffeekasse.
+
+...
