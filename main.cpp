@@ -10,4 +10,5 @@ int main(int argc, char *argv[])
     QCoreApplication::setApplicationName("Kaffeekasse");
     window.show();
     return app.exec();
+    //Test
 }

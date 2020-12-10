@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Kaffeekasse</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QListView" name="listNames">
@@ -152,8 +152,31 @@
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuDatei">
+    <property name="title">
+     <string>Datei</string>
+    </property>
+    <addaction name="actionSpeichern"/>
+    <addaction name="actionLaden"/>
+   </widget>
+   <addaction name="menuDatei"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSpeichern">
+   <property name="text">
+    <string>Speichern</string>
+   </property>
+  </action>
+  <action name="actionLaden">
+   <property name="text">
+    <string>Laden</string>
+   </property>
+  </action>
+  <action name="actionTest3">
+   <property name="text">
+    <string>Test3</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
