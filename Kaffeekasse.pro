@@ -10,10 +10,14 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    lehrer.cpp \
+    bestanstablemodel.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    lehrer.h \
+    bestanstablemodel.h
 
 FORMS += \
     mainwindow.ui
