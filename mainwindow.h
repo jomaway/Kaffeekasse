@@ -17,5 +17,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    QString currentFileName;
 };
 #endif // MAINWINDOW_H
